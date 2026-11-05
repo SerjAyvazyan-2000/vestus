@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vestus — керамическая мастерская</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Керамическая мастерская и арт-пространство Vestus в Москве: гончарный круг, ручная лепка, глазурная живопись, занятия для детей и взрослых, свидания за гончарным кругом. м. Нагатинская, ул. Нагатинская, 3А.">
+<meta name="theme-color" content="#1f2a7a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=IBM+Plex+Mono:wght@400;500&family=Onest:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Перейти к содержимому</a>
+
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <div class="header__inner wrap">
+    <a href="#top" class="logo" aria-label="Vestus — на главную">
+      <span class="logo__word">Vestus</span>
+      <span class="logo__tag">керамика · арт-пространство</span>
+    </a>
+    <nav class="nav" aria-label="Основное меню">
+      <a href="#formats">Форматы и цены</a>
+      <a href="#schedule">Расписание</a>
+      <a href="#works">Работы</a>
+      <a href="#kids">Детям</a>
+      <a href="#glass">Витраж</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header__actions">
+      <a class="header__phone" href="tel:+79031716200">+7 903 171-62-00</a>
+      <a class="btn btn--mustard btn--sm magnetic" href="#booking">Записаться</a>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mmenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mmenu" id="mmenu" aria-hidden="true">
+  <nav class="mmenu__nav" aria-label="Мобильное меню">
+    <a href="#formats"><span>01</span>Форматы и цены</a>
+    <a href="#schedule"><span>02</span>Расписание</a>
+    <a href="#works"><span>03</span>Работы учеников</a>
+    <a href="#kids"><span>04</span>Детям и семьям</a>
+    <a href="#glass"><span>05</span>Витраж и свет</a>
+    <a href="#gift"><span>06</span>Сертификаты</a>
+    <a href="#contacts"><span>07</span>Как добраться</a>
+  </nav>
+  <div class="mmenu__foot">
+    <a class="btn btn--mustard" href="#booking">Записаться на занятие</a>
+    <a class="mmenu__tel" href="tel:+79031716200">+7 903 171-62-00</a>
+    <a class="mmenu__tg" href="https://t.me/Art_Vestus" target="_blank" rel="noopener">Telegram @Art_Vestus</a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__inner wrap">
+    <div class="hero__text">
+      <p class="eyebrow eyebrow--light"><span class="dot"></span>Москва · м. Нагатинская · Нагатинская, 3А</p>
+      <h1 class="hero__title">
+        <span class="line"><span>Глина в руках,</span></span>
+        <span class="line"><span>тишина <em>в голове</em></span></span>
+      </h1>
+      <p class="hero__lead">Керамическая мастерская Vestus: гончарный круг, ручная лепка и глазурная живопись для взрослых и детей. Глина, глазури и обжиг уже включены в цену. Вы просто приходите и лепите.</p>
+      <div class="hero__cta">
+        <a href="#booking" class="btn btn--mustard btn--lg magnetic">Записаться на занятие</a>
+        <a href="#formats" class="btn btn--ghost-light btn--lg">Форматы и цены</a>
+      </div>
+      <ul class="hero__trust">
+        <li><b data-count="4.7" data-dec="1">4.7</b><span>★ на Яндекс Картах</span></li>
+        <li><b data-count="17">17</b><span>отзывов гостей</span></li>
+        <li><b>0+</b><span>малыши лепят вместе с родителем</span></li>
+      </ul>
+    </div>
+
+    <div class="hero__visual" id="heroVisual">
+      <figure class="blob blob--main" data-depth="0.6">
+        <img src="assets/images/handbuilding-woman.jpg" alt="Девушка лепит чашу из глины на подставке в мастерской Vestus" width="960" height="1280" fetchpriority="high">
+      </figure>
+      <figure class="blob blob--sm blob--a" data-depth="1.4">
+        <img src="assets/images/work-mushroom.jpg" alt="Керамический гриб с голубой глазурью — работа ученицы" width="960" height="1280">
+      </figure>
+      <figure class="blob blob--sm blob--b" data-depth="1.1">
+        <img src="assets/images/kid-wheel.jpg" alt="Девочка за гончарным кругом сушит стаканчик" width="720" height="960">
+      </figure>
+      <div class="badge" aria-hidden="true">
+        <svg viewBox="0 0 200 200" class="badge__ring">
+          <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+          <text><textPath href="#circ">гончарный круг • ручная лепка • глазурь • обжиг • </textPath></text>
+        </svg>
+        <div class="badge__core"><small>занятие</small><b>от 1300 ₽</b></div>
+      </div>
+    </div>
+  </div>
+  <svg class="hero__edge" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 C180,80 360,0 540,30 C720,60 900,10 1080,34 C1260,58 1350,20 1440,36 L1440,80 L0,80 Z"/></svg>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>гончарный круг</span><i>✺</i><span>ручная лепка</span><i>✺</i><span>глазурная живопись</span><i>✺</i><span>свидание за кругом</span><i>✺</i><span>детско-родительские субботы</span><i>✺</i><span>чайная церемония</span><i>✺</i><span>киноклуб</span><i>✺</i><span>витраж</span><i>✺</i>
+    <span>гончарный круг</span><i>✺</i><span>ручная лепка</span><i>✺</i><span>глазурная живопись</span><i>✺</i><span>свидание за кругом</span><i>✺</i><span>детско-родительские субботы</span><i>✺</i><span>чайная церемония</span><i>✺</i><span>киноклуб</span><i>✺</i><span>витраж</span><i>✺</i>
+  </div>
+</div>
+
+<!-- ===== ABOUT ===== -->
+<section class="about section" id="about">
+  <div class="wrap about__grid">
+    <div class="about__photo reveal">
+      <img src="assets/images/studio-bouquet.jpg" alt="Мастерская Vestus: керамические вазы с осенними листьями и цветами на рабочем столе" width="960" height="1280" loading="lazy">
+      <span class="about__stamp">Б356Г<small>белая дверь с вывеской</small></span>
+    </div>
+    <div class="about__text">
+      <p class="eyebrow reveal">Мастерская, а не конвейер</p>
+      <h2 class="h2 reveal">Здесь лепят не «по шаблону». Здесь <em>отдыхают руками</em>.</h2>
+      <p class="lead reveal">Vestus — тёплая мастерская на четвёртом этаже у метро Нагатинская. Основательница Наталья Вострякова — художник-керамист и психолог, поэтому занятия у нас часто называют арт-терапией. Мастер покажет каждое движение, поможет с задумкой и сделает так, чтобы вещь пережила обжиг.</p>
+      <ul class="facts">
+        <li class="reveal"><span class="facts__k">Всё включено</span><p>Глина, ангобы, глазури и обжиги уже в стоимости. Ничего не нужно докупать.</p></li>
+        <li class="reveal"><span class="facts__k">Мини-группы</span><p>Мастер успевает подойти к каждому. Можно прийти одному, вдвоём или своей компанией.</p></li>
+        <li class="reveal"><span class="facts__k">С любого возраста</span><p>Дети до 4 лет лепят вместе с родителем без доплаты. Взрослые — с нуля или продолжают.</p></li>
+        <li class="reveal"><span class="facts__k">Своя печь</span><p>Обжигаем прямо в мастерской. Можно принести на обжиг и свои работы.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS / KILN ===== -->
+<section class="kiln" id="process">
+  <div class="wrap">
+    <div class="kiln__head">
+      <p class="eyebrow eyebrow--light reveal">Путь глины</p>
+      <h2 class="h2 h2--light reveal">От комка глины до вещи, которой будут пить чай <em>годами</em></h2>
+    </div>
+    <div class="thermo" id="thermo" aria-hidden="true">
+      <div class="thermo__bar"><div class="thermo__fill" id="thermoFill"></div></div>
+      <div class="thermo__read"><span id="thermoVal">20</span> °C</div>
+    </div>
+    <ol class="steps">
+      <li class="step reveal" data-temp="20">
+        <span class="step__temp">~20 °C</span>
+        <h3>Лепка</h3>
+        <p>На круге или руками: чашка, тарелка, ваза, гриб — что задумали. Мастер рядом всё занятие.</p>
+      </li>
+      <li class="step reveal" data-temp="20">
+        <span class="step__temp">несколько дней</span>
+        <h3>Сушка</h3>
+        <p>Работа сохнет на полке мастерской. Ангобами её можно расписать ещё сырой, прямо на занятии.</p>
+      </li>
+      <li class="step reveal" data-temp="900">
+        <span class="step__temp">~900 °C</span>
+        <h3>Первый обжиг</h3>
+        <p>Глина становится керамикой — крепкой и звонкой. Её можно покрыть глазурью.</p>
+      </li>
+      <li class="step reveal" data-temp="1220">
+        <span class="step__temp">~1220 °C</span>
+        <h3>Глазурь и финал</h3>
+        <p>Глазурь плавится в стекло. Администратор напишет, когда можно забрать готовую вещь.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== FORMATS ===== -->
+<section class="formats section" id="formats">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow reveal">Форматы и цены</p>
+      <h2 class="h2 reveal">Выберите, как хотите <em>познакомиться с глиной</em></h2>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Формат занятий">
+      <button class="tabs__btn is-active" role="tab" aria-selected="true" aria-controls="tab-adults" id="t-adults">Взрослым</button>
+      <button class="tabs__btn" role="tab" aria-selected="false" aria-controls="tab-kids" id="t-kids">Детям и семьям</button>
+      <button class="tabs__btn" role="tab" aria-selected="false" aria-controls="tab-group" id="t-group">Компанией</button>
+      <span class="tabs__ink" aria-hidden="true"></span>
+    </div>
+
+    <div class="panels">
+      <div class="panel is-active" role="tabpanel" id="tab-adults" aria-labelledby="t-adults">
+        <article class="offer">
+          <div class="offer__top"><h3>Гончарный круг</h3><span class="offer__meta">индивидуально · 1,5 ч</span></div>
+          <p>Первый раз за кругом — с мастером один на один. Центруете глину, вытягиваете стенки, уносите домой свою чашку после обжига.</p>
+          <div class="offer__price"><b>3 500 ₽</b><span>двое на соседних кругах — 5 500 ₽</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Ручная лепка</h3><span class="offer__meta">индивидуально · 1,5 ч</span></div>
+          <p>Пиалы, тарелки, фигурки и панно руками. Сразу можно расписать работу ангобами.</p>
+          <div class="offer__price"><b>3 500 ₽</b><span>материалы и обжиг включены</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Свободная тема</h3><span class="offer__meta">взрослая группа · суббота 18:00</span></div>
+          <p>Приходите со своей идеей — мастер Майя Наумова поможет её воплотить. Можно браться за крупные проекты и расписывать глазурями.</p>
+          <div class="offer__price"><b>2 000 ₽</b><span>1,5 часа</span></div>
+        </article>
+        <article class="offer offer--accent">
+          <div class="offer__top"><h3>Базовый курс по керамике</h3><span class="offer__meta">пятницы · 14:00 и 17:00</span></div>
+          <p>Системно: техники лепки, работа с пластом, ангобы, глазури и глазурная живопись. Для тех, кто хочет научиться, а не попробовать.</p>
+          <div class="offer__price"><b>Есть места</b><span>стоимость — у администратора</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Мастер-класс</h3><span class="offer__meta">четверг 17:00 · дети и взрослые</span></div>
+          <p>Короткий формат, чтобы попробовать керамику без обязательств. Ведёт Светлана Морозова.</p>
+          <div class="offer__price"><b>1 500 ₽</b><span>1,5 часа</span></div>
+        </article>
+      </div>
+
+      <div class="panel" role="tabpanel" id="tab-kids" aria-labelledby="t-kids" hidden>
+        <article class="offer offer--accent">
+          <div class="offer__top"><h3>Детско-родительская суббота</h3><span class="offer__meta">суббота 11:00 · все возрасты</span></div>
+          <p>Традиция мастерской: родители и дети лепят за одним столом. Ведёт Наталья Вострякова.</p>
+          <div class="offer__price"><b>2 600 ₽</b><span>родитель + ребёнок · дети 1 300 ₽ · взрослые 1 700 ₽</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Семейная группа</h3><span class="offer__meta">суббота 16:00 · свободная тема</span></div>
+          <p>Дети, подростки и взрослые. Лепим что хочется, сразу расписываем ангобами.</p>
+          <div class="offer__price"><b>от 1 300 ₽</b><span>дети до 4 лет — с родителем без доплаты</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Художественная керамика</h3><span class="offer__meta">дети 6–10 лет · среда 16:30</span></div>
+          <p>Постоянная детская группа: развиваем руки, фантазию и усидчивость. Набор открыт.</p>
+          <div class="offer__price"><b>Набор</b><span>условия — у администратора</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Школьный класс</h3><span class="offer__meta">до 10 учеников</span></div>
+          <p>Выездной урок технологии или ИЗО прямо в мастерской: каждый уносит свою работу.</p>
+          <div class="offer__price"><b>1 500 ₽</b><span>за ученика</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>День рождения в мастерской</h3><span class="offer__meta">дети и взрослые</span></div>
+          <p>Мастер-класс на выбор и чаепитие для вашей компании. Гости уходят с подарком, сделанным своими руками.</p>
+          <div class="offer__price"><b>по запросу</b><span>подберём формат под возраст</span></div>
+        </article>
+      </div>
+
+      <div class="panel" role="tabpanel" id="tab-group" aria-labelledby="t-group" hidden>
+        <article class="offer offer--accent">
+          <div class="offer__top"><h3>Своя группа</h3><span class="offer__meta">от 4 человек · время по договорённости</span></div>
+          <p>Друзья, коллеги, девичник. Мастерская работает только для вас.</p>
+          <div class="offer__price"><b>2 000 ₽</b><span>взрослые · дети — 1 500 ₽</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Чайная церемония</h3><span class="offer__meta">воскресенье 18:30 · от 2 человек</span></div>
+          <p>Медленный вечер с чаем из керамики. Ведёт Майя Наумова.</p>
+          <div class="offer__price"><b>2 500 ₽</b><span>за человека</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Мастер-классы Катрен</h3><span class="offer__meta">суббота и воскресенье · 8+</span></div>
+          <p>Изделия из натуральной кожи, сахарные скрабы, бомбочки для ванны, конфеты своими руками.</p>
+          <div class="offer__price"><b>от 1 000 ₽</b><span>кожа — 1 500 ₽ в группе от 2 человек</span></div>
+        </article>
+        <article class="offer">
+          <div class="offer__top"><h3>Коворкинг и аренда</h3><span class="offer__meta">почасово или помесячно</span></div>
+          <p>Место за столом для своих проектов, обжиг ваших работ, площадка под ваше мероприятие.</p>
+          <div class="offer__price"><b>по договорённости</b><span>уточните у администратора</span></div>
+        </article>
+      </div>
+    </div>
+    <p class="formats__note reveal">Запись по предоплате 1 000 ₽. Если предупредите за 24 часа, что не придёте, — перенесём занятие на другую дату.</p>
+  </div>
+</section>
+
+<!-- ===== DATE OFFER ===== -->
+<section class="date" id="date">
+  <div class="wrap date__grid">
+    <div class="date__img reveal">
+      <img src="assets/images/vase-berries.jpg" alt="Керамическая ваза с осенними листьями и ягодами боярышника" width="960" height="1280" loading="lazy">
+    </div>
+    <div class="date__text">
+      <p class="eyebrow eyebrow--light reveal">Хит мастерской</p>
+      <h2 class="h2 h2--light reveal">Свидание за <em>гончарным кругом</em></h2>
+      <p class="reveal">Два круга рядом, мастер и полтора часа без телефонов. Перепачкаетесь в глине, посмеётесь над первой «кривой» чашкой и унесёте домой две пары посуды, которую сделали друг для друга.</p>
+      <ul class="date__list reveal">
+        <li>Подходит для первого раза — опыт не нужен</li>
+        <li>Фартуки, глина и обжиг уже в цене</li>
+        <li>Можно оформить как подарочный сертификат</li>
+      </ul>
+      <div class="date__price reveal">
+        <span class="date__num">5 500 ₽</span>
+        <span class="date__for">на двоих</span>
+      </div>
+      <a href="#booking" class="btn btn--mustard btn--lg magnetic reveal" data-pick="Свидание за гончарным кругом">Забронировать свидание</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SCHEDULE ===== -->
+<section class="schedule section" id="schedule">
+  <div class="wrap">
+    <div class="section__head section__head--row">
+      <div>
+        <p class="eyebrow reveal">Постоянное расписание</p>
+        <h2 class="h2 reveal">Неделя <em>в мастерской</em></h2>
+      </div>
+      <div class="days" role="tablist" aria-label="День недели" id="days">
+        <button class="days__btn" role="tab" data-day="wed">Ср</button>
+        <button class="days__btn" role="tab" data-day="thu">Чт</button>
+        <button class="days__btn" role="tab" data-day="fri">Пт</button>
+        <button class="days__btn is-active" role="tab" data-day="sat">Сб</button>
+        <button class="days__btn" role="tab" data-day="sun">Вс</button>
+      </div>
+    </div>
+    <ul class="slots" id="slots" aria-live="polite"></ul>
+    <p class="schedule__note">Индивидуальные занятия и свою группу можно записать на другое время — уточните у администратора.</p>
+  </div>
+</section>
+
+<!-- ===== WORKS ===== -->
+<section class="works section" id="works">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow reveal">Работы учеников</p>
+      <h2 class="h2 reveal">Что выходит из нашей печи</h2>
+      <p class="lead reveal">Всё это сделано руками гостей мастерской — многие пришли сюда впервые.</p>
+    </div>
+    <div class="gallery">
+      <figure class="g g--tall reveal" data-full="assets/images/work-heart.jpg">
+        <img src="assets/images/work-heart.jpg" alt="Настенное панно в форме сердца с морозными узорами глазури" width="960" height="1280" loading="lazy">
+        <figcaption><b>Панно «Сердце»</b>Обжигалось несколько раз. В последнем обжиге глазурь собралась в морозные узоры. Дина Колокольникова, базовый курс.</figcaption>
+      </figure>
+      <figure class="g reveal" data-full="assets/images/glaze-painting.jpg">
+        <img src="assets/images/glaze-painting.jpg" alt="Глазурная живопись на керамических пластах и керамические грибы" width="960" height="1280" loading="lazy">
+        <figcaption><b>Глазурная живопись</b>Осенью пишем на пластах с натуры и лепим грибы.</figcaption>
+      </figure>
+      <figure class="g reveal" data-full="assets/images/work-mushroom.jpg">
+        <img src="assets/images/work-mushroom.jpg" alt="Керамический гриб с синей и сиреневой глазурью в руке" width="960" height="1280" loading="lazy">
+        <figcaption><b>Гриб-фантазия</b>Ручная лепка, три глазури.</figcaption>
+      </figure>
+      <figure class="g g--tall reveal" data-full="assets/images/studio-bouquet.jpg">
+        <img src="assets/images/studio-bouquet.jpg" alt="Вазы ручной работы с осенним букетом на столе мастерской" width="960" height="1280" loading="lazy">
+        <figcaption><b>Вазы мастерской</b>Осенние букеты живут в керамике резидентов.</figcaption>
+      </figure>
+      <figure class="g reveal" data-full="assets/images/vase-berries.jpg">
+        <img src="assets/images/vase-berries.jpg" alt="Высокая ваза с белой каймой и пятнистой глазурью" width="960" height="1280" loading="lazy">
+        <figcaption><b>Ваза на круге</b>Белая кайма и «звёздная» глазурь.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KIDS ===== -->
+<section class="kids section" id="kids">
+  <div class="wrap kids__grid">
+    <div class="kids__text">
+      <p class="eyebrow reveal">Детям и семьям</p>
+      <h2 class="h2 reveal">Дети приходят за глиной, а уходят <em>с гордостью</em></h2>
+      <p class="lead reveal">Глина успокаивает, развивает мелкую моторику и даёт ребёнку то, что редко бывает в школе: вещь, которую он сделал сам от начала до конца.</p>
+      <ul class="kids__list">
+        <li class="reveal"><b>Суббота 11:00</b>Детско-родительское занятие для всех возрастов</li>
+        <li class="reveal"><b>Среда 16:30</b>Группа художественной керамики для детей 6–10 лет</li>
+        <li class="reveal"><b>Любой день</b>Дни рождения и мини-группы своей компанией</li>
+      </ul>
+      <a href="#booking" class="btn btn--cobalt btn--lg magnetic reveal" data-pick="Детско-родительское занятие">Записать ребёнка</a>
+    </div>
+    <div class="kids__photos">
+      <figure class="kp kp--1 reveal"><img src="assets/images/kid-clay.jpg" alt="Улыбающаяся девочка смотрит через глиняное кольцо" width="960" height="1280" loading="lazy"></figure>
+      <figure class="kp kp--2 reveal"><img src="assets/images/handbuilding-girl.jpg" alt="Девочка с косичками лепит глиняную чашку" width="960" height="1280" loading="lazy"></figure>
+      <figure class="kp kp--3 reveal"><img src="assets/images/kid-wheel.jpg" alt="Девочка в фартуке за гончарным кругом" width="720" height="960" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GLASS ===== -->
+<section class="glass" id="glass" data-light="on">
+  <div class="wrap glass__grid">
+    <div class="glass__text">
+      <p class="eyebrow eyebrow--light reveal">Новое направление</p>
+      <h2 class="h2 h2--light reveal">Витраж, который <em>светится</em></h2>
+      <p class="reveal">С середины ноября в Vestus стартуют занятия по витражу. А на мастер-классе инженера и столяра Андрея Игнатенко участники сами собирают беспроводной светильник под витраж: дубовый корпус, батарея, диммер, зарядка по USB-C.</p>
+      <ul class="glass__facts reveal">
+        <li><b>4–5 часов</b><span>длится мастер-класс</span></li>
+        <li><b>4 места</b><span>в группе</span></li>
+        <li><b>7 500 ₽</b><span>корпус из дуба и электроника входят</span></li>
+      </ul>
+      <div class="glass__actions reveal">
+        <button class="switch" id="lightSwitch" aria-pressed="true">
+          <span class="switch__track"><span class="switch__knob"></span></span>
+          <span class="switch__label">Свет включён</span>
+        </button>
+        <a href="#booking" class="btn btn--mustard magnetic" data-pick="Витраж / светильник">Узнать о следующем наборе</a>
+      </div>
+    </div>
+    <div class="glass__stage">
+      <figure class="lamp lamp--1 reveal"><img src="assets/images/lamp-meadow.jpg" alt="Витражный светильник с пейзажем — лавандовое поле и холмы" width="850" height="1280" loading="lazy"></figure>
+      <figure class="lamp lamp--2 reveal"><img src="assets/images/lamp-peony.jpg" alt="Витражный светильник с розовым пионом в деревянной раме" width="1092" height="848" loading="lazy"></figure>
+      <figure class="lamp lamp--3 reveal"><img src="assets/images/lamp-lavender.jpg" alt="Квадратный витражный светильник с домиком и полем в дубовом коробе" width="960" height="1280" loading="lazy"></figure>
+      <div class="glass__details">
+        <figure class="reveal"><img src="assets/images/lamp-oak.jpg" alt="Дубовый корпус светильника сбоку" width="960" height="1280" loading="lazy"><figcaption>массив дуба</figcaption></figure>
+        <figure class="reveal"><img src="assets/images/lamp-back.jpg" alt="Задняя крышка светильника с разъёмом USB-C" width="960" height="1280" loading="lazy"><figcaption>зарядка USB-C</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EVENTS ===== -->
+<section class="events section" id="events">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow reveal">Арт-пространство</p>
+      <h2 class="h2 reveal">Не только керамика</h2>
+    </div>
+    <ul class="afisha">
+      <li class="reveal"><span class="afisha__when">пятница / суббота · 700 ₽</span><h3>Киноклуб</h3><p>Смотрим фильм и разбираем его со сценаристом и психологом. Клубу уже больше двух лет.</p></li>
+      <li class="reveal"><span class="afisha__when">по анонсу · 700 ₽</span><h3>Плейбэк-театр</h3><p>Зрители рассказывают реальные истории, актёры играют их здесь и сейчас. После — джем.</p></li>
+      <li class="reveal"><span class="afisha__when">воскресенье · 2 500 ₽</span><h3>Чайная церемония</h3><p>Неспешный вечер, чай и посуда ручной работы.</p></li>
+      <li class="reveal"><span class="afisha__when">по записи</span><h3>Арт-терапия и коллажи</h3><p>Творческие встречи, где важен не результат, а то, что вы почувствуете.</p></li>
+      <li class="reveal"><span class="afisha__when">в мастерской и с доставкой</span><h3>Арт-лавка</h3><p>Работы резидентов: украшения из муранского стекла, фигурное мыло от 150 ₽, кожа, витражи, фарфоровые кольца.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="reviews section" id="reviews">
+  <div class="wrap">
+    <div class="reviews__head">
+      <div class="rating reveal">
+        <span class="rating__num">4.7</span>
+        <span class="rating__stars" aria-label="Рейтинг 4.7 из 5">★★★★★</span>
+        <span class="rating__src">17 отзывов на Яндекс Картах</span>
+      </div>
+      <h2 class="h2 reveal">Что говорят <em>гости</em></h2>
+    </div>
+    <div class="quotes">
+      <blockquote class="quote reveal"><p>Прохожу у Натальи базовый курс по керамике — очень интересно! Она показывает все нюансы, поддерживает и помогает. Занятия проходят как арт-терапия. Детям тоже понравилось: с теплом вспоминают и гордятся работами.</p><cite>Tatiana</cite></blockquote>
+      <blockquote class="quote reveal"><p>Мы с сыном очень любим творить у Наталии. Атмосфера приятная, творческая, а работа с глиной меня умиротворяет. Ходим вдвоём, рекомендую.</p><cite>dina6868</cite></blockquote>
+      <blockquote class="quote reveal"><p>Красивое творческое пространство, в котором приятно просто быть. Регулярно проходят творческие, арт-терапевтические и музыкально-поэтические встречи.</p><cite>Anton T.</cite></blockquote>
+      <blockquote class="quote reveal"><p>Прекрасное место. Очень душевное и тёплое.</p><cite>Екатерина Кудашова</cite></blockquote>
+    </div>
+    <a class="link-arrow reveal" href="https://yandex.ru/maps/org/66679406128" target="_blank" rel="noopener">Все отзывы на Яндекс Картах →</a>
+  </div>
+</section>
+
+<!-- ===== GIFT ===== -->
+<section class="gift section" id="gift">
+  <div class="wrap">
+    <div class="ticket reveal">
+      <div class="ticket__main">
+        <p class="eyebrow">Подарочный сертификат</p>
+        <h2 class="h2">Подарите вечер, а не <em>ещё одну вещь</em></h2>
+        <p>Сертификат на ручную лепку, гончарный круг или свидание за кругом. Оформим красиво — подойдёт на день рождения, 8 Марта и просто так.</p>
+        <a href="#booking" class="btn btn--cobalt magnetic" data-pick="Подарочный сертификат">Оформить сертификат</a>
+      </div>
+      <div class="ticket__stub" aria-hidden="true">
+        <span>VESTUS</span>
+        <b>от 1 300 ₽</b>
+        <small>№ 0001</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq section" id="faq">
+  <div class="wrap faq__grid">
+    <div>
+      <p class="eyebrow reveal">Вопросы</p>
+      <h2 class="h2 reveal">Перед первым <em>визитом</em></h2>
+      <p class="lead reveal">Не нашли ответ? Напишите администратору в Telegram — ответим быстро.</p>
+    </div>
+    <div class="acc">
+      <details class="acc__item reveal"><summary>Я никогда не лепил. У меня получится?</summary><p>Да. Большинство гостей приходят впервые. Мастер показывает каждый шаг и помогает руками, если что-то не выходит.</p></details>
+      <details class="acc__item reveal"><summary>Что входит в стоимость?</summary><p>Глина, инструменты, фартук, ангобы, глазури и обжиги. Отдельно ничего платить не нужно.</p></details>
+      <details class="acc__item reveal"><summary>Как работает запись и предоплата?</summary><p>Запись обязательна, предоплата — 1 000 ₽ переводом. Если предупредите за 24 часа, что не сможете прийти, перенесём занятие на другую дату.</p></details>
+      <details class="acc__item reveal"><summary>Когда можно забрать работу?</summary><p>После сушки и обжигов. Администратор напишет, когда работа будет готова.</p></details>
+      <details class="acc__item reveal"><summary>Как попасть в здание?</summary><p>На территории пропускная система. Возьмите паспорт — пропуск оформит администратор при записи. Машину на территорию тоже можно провести, если заказать пропуск заранее.</p></details>
+      <details class="acc__item reveal"><summary>С какого возраста можно детям?</summary><p>С любого. Малыши до 4 лет лепят вместе с родителем без доплаты. Для детей 6–10 лет есть отдельная группа по средам.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BOOKING ===== -->
+<section class="booking" id="booking">
+  <div class="wrap booking__grid">
+    <div class="booking__text">
+      <p class="eyebrow eyebrow--light reveal">Запись</p>
+      <h2 class="h2 h2--light reveal">Оставьте заявку — администратор <em>подберёт время</em></h2>
+      <p class="reveal">Перезвоним или напишем в Telegram, расскажем о свободных местах и оформим пропуск.</p>
+      <div class="booking__direct reveal">
+        <a href="tel:+79031716200" class="direct"><small>Администратор Анастасия</small><b>+7 903 171-62-00</b></a>
+        <a href="https://t.me/Art_Vestus" target="_blank" rel="noopener" class="direct"><small>Telegram</small><b>@Art_Vestus</b></a>
+      </div>
+    </div>
+    <form class="form reveal" id="form" novalidate>
+      <div class="field">
+        <label for="f-name">Как к вам обращаться</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Имя" required>
+      </div>
+      <div class="field">
+        <label for="f-phone">Телефон</label>
+        <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required>
+      </div>
+      <div class="field">
+        <label for="f-format">Что хотите</label>
+        <select id="f-format" name="format">
+          <option>Гончарный круг</option>
+          <option>Ручная лепка</option>
+          <option>Свидание за гончарным кругом</option>
+          <option>Базовый курс по керамике</option>
+          <option>Детско-родительское занятие</option>
+          <option>День рождения / своя группа</option>
+          <option>Подарочный сертификат</option>
+          <option>Витраж / светильник</option>
+          <option>Пока не знаю — нужна консультация</option>
+        </select>
+      </div>
+      <label class="check" for="f-agree">
+        <input type="checkbox" id="f-agree" required>
+        <span>Согласен(на) с <a href="privacy.html" target="_blank">политикой конфиденциальности</a> и обработкой персональных данных</span>
+      </label>
+      <p class="form__error" id="formError" hidden></p>
+      <button class="btn btn--mustard btn--lg btn--block magnetic" type="submit">Отправить заявку</button>
+      <div class="form__ok" id="formOk" hidden>
+        <b>Заявка принята</b>
+        <p>Администратор свяжется с вами в ближайшее время. Если удобнее — напишите сразу в Telegram <a href="https://t.me/Art_Vestus" target="_blank" rel="noopener">@Art_Vestus</a>.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ===== CONTACTS ===== -->
+<section class="contacts section" id="contacts">
+  <div class="wrap contacts__grid">
+    <div>
+      <p class="eyebrow reveal">Как добраться</p>
+      <h2 class="h2 reveal">Нагатинская, 3А, <em>4 этаж</em></h2>
+      <ol class="route">
+        <li class="reveal"><span>м. Нагатинская, выход 6</span>От метро около 8 минут пешком.</li>
+        <li class="reveal"><span>Проходная</span>Назовите данные на охране и покажите паспорт — пропуск оформит администратор.</li>
+        <li class="reveal"><span>Главный вход</span>Направо по коридору до конца, справа лифт — поднимайтесь на 4 этаж.</li>
+        <li class="reveal"><span>Мастерская Б356Г</span>На этаже направо до конца коридора, справа белая дверь с вывеской «Vestus».</li>
+      </ol>
+    </div>
+    <div class="cbox reveal">
+      <div class="cbox__map" aria-hidden="true">
+        <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+          <rect width="400" height="260" class="m-bg"/>
+          <path d="M-10 190 C80 170 140 210 230 180 S360 150 420 170" class="m-river"/>
+          <path d="M0 80 L400 110" class="m-road"/><path d="M120 0 L170 260" class="m-road"/><path d="M290 0 L270 260" class="m-road m-road--thin"/>
+          <g class="m-metro"><circle cx="150" cy="96" r="11"/><text x="150" y="100">М</text></g>
+          <path d="M162 100 C200 110 230 120 262 128" class="m-path"/>
+          <g class="m-pin"><circle cx="268" cy="130" r="18"/><circle cx="268" cy="130" r="6"/></g>
+        </svg>
+        <span class="cbox__label">Vestus</span>
+      </div>
+      <dl class="cbox__list">
+        <div><dt>Адрес</dt><dd>Москва, Нагатинская ул., 3А, мастерская Б356Г</dd></div>
+        <div><dt>Запись</dt><dd><a href="tel:+79031716200">+7 903 171-62-00</a> Анастасия</dd></div>
+        <div><dt>Основательница</dt><dd><a href="tel:+79261736200">+7 926 173-62-00</a> Наталья</dd></div>
+        <div><dt>Telegram</dt><dd><a href="https://t.me/Art_Vestus" target="_blank" rel="noopener">@Art_Vestus</a> · <a href="https://t.me/vestus_bot" target="_blank" rel="noopener">чат-бот</a> · <a href="https://t.me/artvestus" target="_blank" rel="noopener">канал</a></dd></div>
+      </dl>
+      <a class="btn btn--cobalt btn--block" href="https://yandex.ru/maps/org/66679406128" target="_blank" rel="noopener">Построить маршрут в Яндекс Картах</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <a href="#top" class="logo logo--light"><span class="logo__word">Vestus</span><span class="logo__tag">керамическая мастерская и арт-пространство</span></a>
+      <nav class="footer__nav" aria-label="Подвал">
+        <a href="#formats">Цены</a><a href="#schedule">Расписание</a><a href="#works">Работы</a><a href="#kids">Детям</a><a href="#gift">Сертификаты</a><a href="#faq">Вопросы</a>
+      </nav>
+      <div class="footer__contacts">
+        <a href="tel:+79031716200">+7 903 171-62-00</a>
+        <a href="https://t.me/artvestus" target="_blank" rel="noopener">t.me/artvestus</a>
+        <span>Москва, Нагатинская ул., 3А</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Vestus</span>
+      <a href="privacy.html">Политика конфиденциальности</a>
+      <a class="footer__dev" href="https://studio-psi-olive.vercel.app/" target="_blank" rel="noopener">Сайт разработан в студии <b>Сайтика</b></a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== MOBILE CTA BAR ===== -->
+<div class="mbar" id="mbar">
+  <a href="tel:+79031716200" aria-label="Позвонить">Позвонить</a>
+  <a href="https://t.me/Art_Vestus" target="_blank" rel="noopener">Telegram</a>
+  <a href="#booking" class="mbar__main">Записаться</a>
+</div>
+
+<!-- ===== COOKIE ===== -->
+<div class="cookie" id="cookie" role="dialog" aria-label="Согласие на использование cookie" hidden>
+  <p>Мы используем cookie, чтобы сайт работал удобнее. Подробнее — в <a href="privacy.html" target="_blank">политике конфиденциальности</a>.</p>
+  <div class="cookie__btns">
+    <button class="btn btn--cobalt btn--sm" id="cookieOk">Принять</button>
+    <button class="btn btn--line btn--sm" id="cookieMin">Только необходимые</button>
+  </div>
+</div>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lb" id="lb" hidden>
+  <button class="lb__close" id="lbClose" aria-label="Закрыть">×</button>
+  <button class="lb__nav lb__prev" id="lbPrev" aria-label="Предыдущее фото">‹</button>
+  <figure class="lb__fig"><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__nav lb__next" id="lbNext" aria-label="Следующее фото">›</button>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
