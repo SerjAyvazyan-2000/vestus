@@ -6,4 +6,4 @@
 - `privacy.html` — политика конфиденциальности и cookie
 - `assets/` — изображения, стили, скрипты
 
-Сайт разработан в студии [Сайтика](https://студия-сайтика.рф/).
+Сайт разработан в студии [Сайтика](https://студия-сайтика.рф/?utm_source=client_sites&utm_medium=referral&utm_campaign=footer).
